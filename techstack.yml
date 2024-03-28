@@ -1,0 +1,544 @@
+repo_name: oeh77/citr-v7-project
+report_id: dfaf11d4374b268b363077cb2e059dfe
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-28T02:42:56+00:00'
+requested_by: btholt
+provider: github
+branch: main
+detected_tools_count: 39
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/oeh77/citr-v7-project
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/oeh77/citr-v7-project
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/tailwindcss/package.json
+  detection_source: tailwindcss/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-19 01:15:22.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/server-side-rendering-1/package.json
+  detection_source: server-side-rendering-1/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-19 02:56:29.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/tailwindcss/package.json
+  detection_source: tailwindcss/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-19 01:15:22.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/02-js-tools/package.json
+  detection_source: 02-js-tools/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-18 22:52:35.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/08-react-router/package.json
+  detection_source: '08-react-router/package.json'
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-18 22:52:35.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.1.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/redux/package.json
+  detection_source: redux/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 21:32:23.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/tailwindcss/package.json
+  detection_source: tailwindcss/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-19 01:15:22.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/09-managing-state-in-class-components/.babelrc
+  detection_source: '09-managing-state-in-class-components/.babelrc'
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-13 19:47:57.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/02-js-tools/package.json
+  detection_source: 02-js-tools/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-04 04:54:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 27.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/testing/package.json
+  detection_source: testing/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 22:48:35.000000000 Z
+- name: Parcel
+  description: "\U0001F4E6\U0001F680  A fast, zero configuration web application bundler"
+  website_url: https://parceljs.org/
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/8054/fC6Wad-S_400x400.jpg
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/02-js-tools/package.json
+  detection_source: 02-js-tools/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-04 04:54:42.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/02-js-tools/package.json
+  detection_source: 02-js-tools/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-04 04:54:42.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/typescript-1/package.json
+  detection_source: typescript-1/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 01:43:00.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/server-side-rendering-1/package.json
+  detection_source: server-side-rendering-1/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-19 02:56:29.000000000 Z
+  vulnerabilities:
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/09-managing-state-in-class-components/package.json
+  detection_source: '09-managing-state-in-class-components/package.json'
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-18 22:52:35.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.16.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/testing/package.json
+  detection_source: testing/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 22:48:35.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/testing/package.json
+  detection_source: testing/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 22:48:35.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 12.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/testing/package.json
+  detection_source: testing/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 22:48:35.000000000 Z
+- name: "@testing-library/react-hooks"
+  description: Simple and complete React hooks testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react-hooks
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17877/default_d41d3b5a213e129d6ea411e77eecb13f54b6aea5.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/testing/package.json
+  detection_source: testing/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 22:48:35.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.39
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/typescript-1/package.json
+  detection_source: typescript-1/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 01:43:00.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/typescript-1/package.json
+  detection_source: typescript-1/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 01:43:00.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/typescript-1/package.json
+  detection_source: typescript-1/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 01:43:00.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.12.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/typescript-1/package.json
+  detection_source: typescript-1/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 01:43:00.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/02-js-tools/package.json
+  detection_source: 02-js-tools/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-04 04:54:42.000000000 Z
+- name: eslint-import-resolver-typescript
+  description: TypeScript .ts .tsx module resolver for `eslint-plugin-import`
+  package_url: https://www.npmjs.com/eslint-import-resolver-typescript
+  version: 2.5.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/typescript-1/package.json
+  detection_source: typescript-1/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 01:43:00.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.25.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/03-jsx/package.json
+  detection_source: 03-jsx/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-18 22:52:35.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/03-jsx/package.json
+  detection_source: 03-jsx/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-18 22:52:35.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/03-jsx/package.json
+  detection_source: 03-jsx/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-18 22:52:35.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/04-hooks/package.json
+  detection_source: 04-hooks/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-18 22:52:35.000000000 Z
+- name: jest-fetch-mock
+  description: Fetch mock for jest
+  package_url: https://www.npmjs.com/jest-fetch-mock
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17142/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/testing/package.json
+  detection_source: testing/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 22:48:35.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/02-js-tools/package.json
+  detection_source: 02-js-tools/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-18 22:52:35.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/redux/package.json
+  detection_source: redux/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 21:32:23.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/08-react-router/package.json
+  detection_source: '08-react-router/package.json'
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-18 22:52:35.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/testing/package.json
+  detection_source: testing/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-20 22:48:35.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.0.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/oeh77/citr-v7-project/blob/main/tailwindcss/package.json
+  detection_source: tailwindcss/package.json
+  last_updated_by: Brian Holt
+  last_updated_on: 2022-02-19 01:15:22.000000000 Z
